@@ -1,0 +1,22 @@
+{
+    // バージョンを指定します。現在は "0.2.0" が一般的です。
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // デバッグ設定の名前です。デバッグ開始時に選択するためのものです。
+            "name": "DDDStudyDocker",
+            // 使用するデバッガの種類です。Python の場合は "python" になります。
+            "type": "python",
+            // デバッグセッションを開始するためのリクエストの種類です。通常は "launch" を使用します。
+            "request": "launch",
+            // デバッグするプログラムのパスです。"${file}" は現在開いているファイルを指します。
+            "program": "${file}",
+            // コンソールの種類を指定します。"integratedTerminal" または "externalTerminal" を使用できます。
+            "console": "integratedTerminal",
+            // 追加の引数を指定する場合に使用します。
+            "args": [],
+            // 環境変数を設定する場合に使用します。
+            "env": {}
+        }
+    ]
+}
